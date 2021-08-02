@@ -1,4 +1,8 @@
-Các thẻ block: p, div, ol, li, ul, nav(thường để code navbar), header, footer,.. Các thẻ inline: span, a, b (in đậm chữ), i (in nghiêng), mark (highlight chữ), s, strong (nhấn mạnh chữ),
+- Các thẻ block (khối): h1->6,p, div, ol, li, ul, nav(thường để code navbar), header, footer,.. 
+
+- Các thẻ inline (trong dòng): span, a, b (in đậm chữ), i (in nghiêng), mark (highlight chữ), s, strong (nhấn mạnh chữ),
+
+
 
 Để thêm chiều dài + rộng cho 1 thẻ đang ở trong 1 dòng VD: span trong code
 
