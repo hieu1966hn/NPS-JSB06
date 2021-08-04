@@ -10,7 +10,7 @@
 Các item có kiểu display: block; sẽ set được width, height, margin, padding đầy đủ 4 hướng (top, bottom, left, right);
 
 + Margin: khoảng cách từ thẻ đang set tới thẻ khác (Phần màu da cam trên web)
-padding: khoảng cách từ cạnh của thẻ đang set tới nội dung bên trong. (padding: là phần xanh lá cây trên màn hình web).
++ padding: khoảng cách từ cạnh của thẻ đang set tới nội dung bên trong. (padding: là phần xanh lá cây trên màn hình web).
 
 - display: inline; Với kiểu inline thì các item sẽ nằm trên cùng 1 dòng; vd như thẻ span, nếu các items vượt quá độ dài của dòng => item sẽ xuống dòng mới.
 - Các item có kiểu display: inline; thì không thể set width + height;
