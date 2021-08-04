@@ -23,3 +23,10 @@ Position: Nó là thuộc tính xác định loại của phương pháp định
 
 - Position: Relative: Định vị vị trí tuyệt đối cho các thành phần, khong gây ảnh hưởng tới vị trí ban đầu hay các thành phần khác.
     + Lưu ý: khi bạn bù 1 vị trí phần tử với Position: Relative: không gian nó chiếm không di chuyển.
+
+
+- Position: absolute;
+
+
+- Position: fixed;
+    + Thuọc tính này thường được các dev(lập trình viên) dùng để dịnh vị 1 thành phần so với window hiển thị của các trình duyệt.

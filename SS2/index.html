@@ -8,6 +8,13 @@
     <title>Document</title>
 
     <style>
+        * {
+            /* style toàn bộ web */
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
         .hello {
             color: red;
         }
@@ -32,13 +39,23 @@
             background-color: #e1ab22;
         }
 
-        .header{
-            position:fixed;
+        .header {
+            position: fixed;
             top: 0px;
             margin-top: 0px;
             text-align: center;
             width: 100%;
-            background-color:#e1ab22;
+            background-color: #e1ab22;
+        }
+
+
+        .navbar {
+            background-color: rgb(29, 27, 27);
+            color: white;
+        }
+
+        .navbar ul li {
+            display: inline;
         }
     </style>
 
@@ -84,9 +101,22 @@
 
 
     <!-- VD: position: fixed-->
-    <div>Buổi học thứ 2</div>
+    <!-- <div>Buổi học thứ 2</div>
     <div class="header">Hôm nay học về Position</div>
-    <div>Ứng dụng với Position</div>
+    <div>Ứng dụng với Position</div> -->
+
+
+    <!--  áp dụng vào bài: -->
+
+    <nav class="navbar">
+        <ul>
+            <li>Home</li>
+            <li>About us</li>
+            <li>Contact</li>
+
+        </ul>
+    </nav>
+
 </body>
 
 </html>
