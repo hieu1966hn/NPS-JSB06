@@ -17,6 +17,10 @@ Thuộc tính của flex container
 - justify-content: Dùng để căn chỉnh vị trí của các items so với trục chính. có 6 giá trị justify-content
     + flex-start: vị trí bắt đầu
     + flex-end: vị trí cuối cùng
+    + center: đặt tất cả item ở giữa
+    + space-between: sẽ chia đều khoảng cách thừa và thêm nó giữa các item.
+    + space-around: chia khoảng cách ở đầu và cuối,. Khoảng cách ở đầu và cuối sẽ = 1/2 khoảng cách giữa các items (các con) với nhau.
+    + space-evenly: Chia khoảng cách đều các khoảng cách giữa các item với nhau:
 
-- align-items
+- align-items: dùng để xác định cách mà các flex item được đặt trong container
 - align-content
