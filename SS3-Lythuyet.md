@@ -11,9 +11,12 @@
 
 Thuộc tính của flex container
 - display
-- flex-direction
-- flex-wrap
-- flex-flow:
-- justify-content
+- flex-direction: Để đinh huong hiển thị của các item con, việc thay đổi hướng hiện thị flex có thể cho phép ta thay đổi vị trí của các item.
+- flex-wrap: DÙng để kiểm soát việc bọc các items nằm gọn trong container. Nếu chúng ta giảm chiều rộng của trình duyệt, chúng ta có thể ko nhìn thấy một số item trên cùng 1 dòng.
+- flex-flow: kết hợp của flex-direction và flex-wrap;
+- justify-content: Dùng để căn chỉnh vị trí của các items so với trục chính. có 6 giá trị justify-content
+    + flex-start: vị trí bắt đầu
+    + flex-end: vị trí cuối cùng
+
 - align-items
 - align-content

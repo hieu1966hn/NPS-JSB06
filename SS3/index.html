@@ -8,21 +8,21 @@
     <title>Flex-box</title>
 
     <style>
-        .box-item:nth-child(1) {
+        .box-item3 {
             width: 20px;
             height: 20px;
             background: cyan;
             padding: 20px;
         }
 
-        .box-item:nth-child(2) {
+        .box-item1 {
             width: 20px;
             height: 20px;
             background: rgb(126, 223, 134);
             padding: 20px;
         }
 
-        .box-item:nth-child(3) {
+        .box-item2 {
             width: 20px;
             height: 20px;
             background: rgb(214, 224, 64);
@@ -31,6 +31,9 @@
 
         .box {
             display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: flex-end;
         }
     </style>
 </head>
@@ -38,9 +41,16 @@
 <body>
 
     <div class="box">
-        <div class="box-item">1</div>
-        <div class="box-item">2</div>
-        <div class="box-item">3</div>
+        <div class="box-item1">1</div>
+        <div class="box-item2">2</div>
+        <div class="box-item3">3</div>
+        <div class="box-item3">4</div>
+        <div class="box-item1">5</div>
+        <div class="box-item2">6</div>
+        <div class="box-item3">7</div>
+        <div class="box-item1">8</div>
+        <div class="box-item2">9</div>
+
     </div>
 
 
