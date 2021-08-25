@@ -32,6 +32,10 @@
       text-align: center;
     }
 
+    .container .menu-mini a{
+      color: #fff;
+    }
+
     .container .menu {
       background-color: #000;
       color: #fff;
@@ -94,11 +98,11 @@
       <div class="menu">
         <!-- Sử dụng bộ thẻ danh sách không có thứ tự để làm menu -->
         <ul class="menu-mini">
-          <li>Chó</li>
-          <li>Mèo</li>
-          <li>Rùa</li>
+          <a href="#dog"><li>Chó</li></a>
+          <a href="#cat"><li>Mèo</li></a>
+          <a href="#turtle"><li>Rùa</li></a>
           <li>Chim</li>
-          <li>Gấu</li>
+          <a href="#footer"><li>Footer</li></a>
         </ul>
       </div>
     </div>
@@ -106,14 +110,14 @@
     <!-- body -->
     <div class="body-box">
       <div class="content-min">
-        <h3>Dogs</h3>
+        <h3 id="dog">Dogs</h3>
         <p>Chó là 1 loại động vật được thuần hóa bởi người, tổ tiên loài chó trước
           đây là giống loài chó sói cực kỳ hung mãnh.
         </p>
       </div>
 
       <div class="content-max">
-        <h3>Mèo</h3>
+        <h3 id="cat">Mèo</h3>
         <p>Mèo là 1 loại động vật được thuần hóa bởi người, tổ tiên loài mèo là họ hàng
           xa với loài hổ. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt facilis magni nemo debitis,
           id vitae in ducimus soluta nam accusantium, fuga quas reprehenderit accusamus! Cupiditate incidunt praesentium
@@ -122,7 +126,7 @@
       </div>
 
       <div class="content-min">
-        <h3>Rùa</h3>
+        <h3 id="turtle">Rùa</h3>
         <p>Rua là 1 loại động vật đi bằng 1 chân và có mai che chắn rất là cứng rắn
         </p>
       </div>
@@ -135,7 +139,7 @@
     </div>
 
     <!-- footer -->
-    <div class="footer">
+    <div id="footer" class="footer">
       <h4>Bản quyền trang web thuộc về Nguyễn Trung Hiếu</h4>
     </div>
 
