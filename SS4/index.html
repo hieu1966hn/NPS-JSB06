@@ -8,7 +8,7 @@
   <title>Bán thú cưng</title>
 
   <style>
-    *{
+    * {
       /* cú pháp ép kiểu về 0 */
       margin: 0;
       padding: 0;
@@ -16,13 +16,25 @@
     }
 
     .container .header-box .header {
-      background-color: #000;
-      color: #fff;
+      background-color: rgb(189, 175, 175);
+      color: rgb(46, 42, 42);
       text-align: center;
     }
 
-    .container .header h1{
+    .container .header h1 {
       padding: 20px;
+    }
+
+    .container .menu-mini li {
+      display: inline-block;
+      width: 100px;
+      padding: 15px 0px;
+      text-align: center;
+    }
+
+    .container .menu{
+      background-color:#000;
+      color: #fff;
     }
   </style>
 
@@ -38,7 +50,14 @@
       </div>
 
       <div class="menu">
-
+        <!-- Sử dụng bộ thẻ danh sách không có thứ tự để làm menu -->
+        <ul class="menu-mini">
+          <li>Chó</li>
+          <li>Mèo</li>
+          <li>Rùa</li>
+          <li>Chim</li>
+          <li>Gấu</li>
+        </ul>
       </div>
 
     </div>
