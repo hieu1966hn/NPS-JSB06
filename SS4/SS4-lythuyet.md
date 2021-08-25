@@ -1,0 +1,1 @@
+Ứng dụng flex và các kiến thức đã học để tạo nên trang landing page

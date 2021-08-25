@@ -1,0 +1,101 @@
+header{
+    background-image: url("./assets/img/background-header.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: white;
+}
+
+/* Box */
+
+.container{
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    border-radius: 2rem;
+    background-color: rgba(0, 0, 0, 0.781);
+    width: 60rem;
+    height: 35rem;
+    margin: 20px;
+    transition: transform 1s;
+}
+
+.container:hover{
+    transform: scale(.97);
+}
+
+/* Tiêu đề */
+
+.box h1{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.box h2{
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #ff9100;
+}
+
+/* Khung tìm kiếm */
+
+.box-search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-search input{
+    font-size: 1.2rem;
+    border-style: solid;
+    border-color: white;
+    width: 80%;
+    height: 50px ;
+}
+
+/* Button */
+
+.btn{
+    display: flex;
+    justify-content: center;
+}
+
+.btn a{
+    text-decoration: none;
+    margin-top: 1.8rem;
+    padding: 16px;
+    border: none;
+    color: white;
+    background-color: #ff7b00;
+    width: 8rem;
+    border-radius: 1rem;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* Thông tin */
+
+.info{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+    margin: 25px;
+}
+
+.info .content h2{
+    display: block;
+    font-size: 1.8rem;
+}
+
+.info .content p{
+    display: inline;
+    font-size: 1.2rem;
+}                                   
