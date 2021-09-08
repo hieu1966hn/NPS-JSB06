@@ -47,10 +47,29 @@
 // document.write(2 + '<br>')
 // document.write(3 + '<br>')
 
-let i = 1; // khai bao bien i voi gia tri la: 1
 
-while (i <= 10) { // dk tra ve dung => chay code trong while
-  console.log(i);// in lan 1: 1, in lan 2: 2, in lan 3: 3, ..., in lan 10: 10
-  i = i + 1; // tang gia tri i len 1 don vi,
+////// VD: Về vòng lặp while
+// let i = 1; // khai bao bien i voi gia tri la: 1
+
+// while (i <= 10) { // dk tra ve dung => chay code trong while
+//   console.log(i);// in lan 1: 1, in lan 2: 2, in lan 3: 3, ..., in lan 10: 10
+//   i = i + 1; // tang gia tri i len 1 don vi,
+// }
+
+
+/////// VD: Về vòng lặp do - while
+
+// let i = 1;
+
+// do {
+//   console.log(i);// in lan 1: 1, in lan 2: 2, in lan 3: 3, ..., in lan 10: 10
+//   i = i + 1; // tang gia tri i len 1 don vi,
+// }
+// while (i <= 10);
+
+/////// VD: Về vòng lặp for
+for (let i = 1; i <= 10; i = i + 1) {
+  console.log(i);
+
 }
 

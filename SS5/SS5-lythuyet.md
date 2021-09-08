@@ -67,8 +67,25 @@ Lưu trữ trong web dùng gì??
 - Vòng lặp trong Javascript (3 vòng lặp cơ bản)
 
   1. Vòng lặp while (kiểm tra điều kiện, nếu "đúng" =>chạy code trong while và tiếp tục kiểm tra điều kiện).
+
      Cú pháp:
 
   while(<biểu thức điều kiện>){
   .. code trong while
   }
+
+  2. Vòng lặp do - while (cho người dùng lặp lần đầu tiên, sau đó kiểm tra điều kiện (đúng)=> lặp tiếp
+     (sai)=> thoát khỏi vòng lặp )
+
+     Cú pháp:
+
+  do{
+  ... code
+  }
+  while(<biểu thức điều kiện>);
+
+  3. Vòng lặp for: (Cho người dùng biết trước số lần lặp);
+     Cú pháp:
+     for( "giá trị đầu vào" ; <"điều kiện lặp"> ; "câu lệnh thực thi sau khi lặp"){
+     ... coding
+     }
