@@ -25,5 +25,27 @@ Lưu trữ trong web dùng gì??
 
 - Lưu trữ data trong web thông qua "biến" của Ngôn ngữ lập trình
 - Khai báo biến: Có 3 cách khai báo trong JS
-  - let <tênbiến>;
+
+  - let <tênbiến>; (Ưu tiên sử dụng let)
   - var <tênbiến>;
+  - const <tênbiến>; (khai báo hằng số: không thể thay đổi được)
+
+- Toán tử trong Javascript
+
+  - "=": Toán tử gán giá trị cho biến (thay đổi giá trị hoặc khởi tạo giá trị cho biến)
+
+    <!-- toán tử  -->
+
+  - "+": phép toán cộng
+  - "-": phép toán trừ
+  - "\*": phép toán nhân
+  - "/": phép toán chia
+
+    <!-- toán tử so sánh -->
+
+  - ">": Phép so sánh lớn hơn
+  - "<": Phép so sánh nhỏ hơn
+  - "==": Phép so sánh bằng (So sánh tương đối)
+  - "===": Phép so sánh băng (So sánh tuyệt đối)
+  - "!=": Phép so sánh khác
+    ==> Tất cả các phép toán tử so sánh đều trả về kết quả: đúng hoặc sai
