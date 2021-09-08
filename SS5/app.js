@@ -21,20 +21,36 @@
 
 
 
-// Câu điều kiện
-let age = 10; // khai báo biến age có giá trị là 15;
+// // Câu điều kiện
+// let age = 10; // khai báo biến age có giá trị là 15;
 
-if (age > 15) { // Nếu điều kiện trả về đúng: thì chạy code trong if. Sai => bỏ qua code trong if
-  document.write("Bạn đã đủ tuổi để vào học lớp 10");
-}
-else if (age == 15) { // điều kiện con bên trong if - else 
-  document.write("Bạn vừa đủ tuổi để vào lớp 10");
-}
-else if (age === 10) {
-  document.write("Bạn bị cấm học cấp 3");
-}
-else { // trường hợp còn lại
-  // code else chỉ chạy khi điều kiện ở if trả về là sai:
-  document.write("Bạn chưa đủ tuổi vào lớp 10");
+// if (age > 15) { // Nếu điều kiện trả về đúng: thì chạy code trong if. Sai => bỏ qua code trong if
+//   document.write("Bạn đã đủ tuổi để vào học lớp 10");
+// }
+// else if (age == 15) { // điều kiện con bên trong if - else 
+//   document.write("Bạn vừa đủ tuổi để vào lớp 10");
+// }
+// else if (age === 10) {
+//   document.write("Bạn bị cấm học cấp 3");
+// }
+// else { // trường hợp còn lại
+//   // code else chỉ chạy khi điều kiện ở if trả về là sai:
+//   document.write("Bạn chưa đủ tuổi vào lớp 10");
+// }
+
+
+// Vòng lặp
+/**
+ * Bài toán: In ra các số từ 1 -> 10
+ */
+// document.write(1 + '<br>')
+// document.write(2 + '<br>')
+// document.write(3 + '<br>')
+
+let i = 1; // khai bao bien i voi gia tri la: 1
+
+while (i <= 10) { // dk tra ve dung => chay code trong while
+  console.log(i);// in lan 1: 1, in lan 2: 2, in lan 3: 3, ..., in lan 10: 10
+  i = i + 1; // tang gia tri i len 1 don vi,
 }
 

@@ -52,10 +52,23 @@ Lưu trữ trong web dùng gì??
     ==> Tất cả các phép toán tử so sánh đều trả về kết quả: đúng hoặc sai
 
 - Câu điều kiện trong JS: if - (else if) - else: Sử dụng để lọc giá trị, loại bỏ trường hợp,...
+
   - Cú pháp:
     if(<biểu thức điều kiện>){
     .... code
     }
+    else if(){
+    .codingggg
+    }
     else{
     .code của else
     }
+
+- Vòng lặp trong Javascript (3 vòng lặp cơ bản)
+
+  1. Vòng lặp while (kiểm tra điều kiện, nếu "đúng" =>chạy code trong while và tiếp tục kiểm tra điều kiện).
+     Cú pháp:
+
+  while(<biểu thức điều kiện>){
+  .. code trong while
+  }
