@@ -40,8 +40,9 @@ Lưu trữ trong web dùng gì??
   - "-": phép toán trừ
   - "\*": phép toán nhân
   - "/": phép toán chia
+    ==> Các phép toán tử cộng trừ nhân chia chỉ dành cho số;
 
-    <!-- toán tử so sánh -->
+        <!-- toán tử so sánh -->
 
   - ">": Phép so sánh lớn hơn
   - "<": Phép so sánh nhỏ hơn
@@ -49,3 +50,12 @@ Lưu trữ trong web dùng gì??
   - "===": Phép so sánh băng (So sánh tuyệt đối)
   - "!=": Phép so sánh khác
     ==> Tất cả các phép toán tử so sánh đều trả về kết quả: đúng hoặc sai
+
+- Câu điều kiện trong JS: if - (else if) - else: Sử dụng để lọc giá trị, loại bỏ trường hợp,...
+  - Cú pháp:
+    if(<biểu thức điều kiện>){
+    .... code
+    }
+    else{
+    .code của else
+    }
