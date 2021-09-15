@@ -43,4 +43,18 @@ while (i <= 10) { // Điều kiện để dừng vòng lặp.
   i = i + 1; // là tăng i lên 1 đơn vị
 }
 
+// giá trị i hiện tại là: 11 (i=11)
+
+
+// ý b) in ra số chăn
+console.log("in ra số chăn");
+i = 1; // ==> i giá trị về lại là 1;
+do {
+  if (i % 2 === 0) { // dùng 2 dấu bằng liền 
+    console.log(i);
+  }
+
+  i = i + 1; // là tăng i lên 1 đơn vị
+}
+while (i <= 10);
 
