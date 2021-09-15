@@ -95,5 +95,18 @@ arr[0] = "thịt mèo"
 console.log("mảng sau khi update là:", arr);
 
 
+/// Delete 1 phần tử trong mảng: 
+/**
+ * Ta phải biêt được vị trí phần tử muốn Delete
+ * Sử dụng cú pháp: 
+ * arr.splice(x,y):  
+ * x: là vị trí phần tử:
+ * y: là số phần tử các em muốn xóa kể từ vị trí đó (tính cả chính nó)
+ */
+
+arr.splice(2, 2);
+console.log("mảng sau khi Delete là:", arr);
+
+
 
 
