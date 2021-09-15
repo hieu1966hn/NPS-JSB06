@@ -38,4 +38,10 @@ Thao tác C,R,U,D với Array:
 
 Lưu ý:
 
+- prompt(): là phương thức cho người dùng nhập vào 1 giá trị dạng chuỗi trên trình duyệt
+- Chuyển chuỗi -> kiểu Number: Number(x): với x là 1 chuỗi bất kỳ;
 - Vị trí của các phần tử trong mảng bắt đầu từ vị trí thứ 0
+- So sánh tương đối: so sánh về giá trị: VD: 1 == "1" => đúng, vì 2 giá trị bằng
+- So sánh tuyệt đối: so sánh về giá trị và về kiểu dữ liệu:
+  VD: 1 === "1" => Sai, vì 2 giá trị bằng nhau, nhưng kiểu dữ liệu khác nhau
+  Number != String

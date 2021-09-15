@@ -60,14 +60,14 @@
 
 
 
-let monAn0 = "thịt chó"
-let monAn1 = "cá nướng"
-let monAn2 = "đậu lướt ván"
+// let monAn0 = "thịt chó"
+// let monAn1 = "cá nướng"
+// let monAn2 = "đậu lướt ván"
 
 ////// Array: Mảng và kiểu dữ liệu mảng
 
 // khai báo 1 mảng;
-let arr = ["thịt chó", "cá nướng", "đậu lướt ván"];
+// let arr = ["thịt chó", "cá nướng", "đậu lướt ván"];
 // biến arr với giá trị hiện có là 1 mảng;
 
 // NS ==>
@@ -79,8 +79,8 @@ let arr = ["thịt chó", "cá nướng", "đậu lướt ván"];
 
 ////////// Tiếp tục với mảng arr hiện có 3 phần tử ban đầu
 // Thêm mới 1  phần tử vào cuối mảng = phương thức .push();
-arr.push("mắm tôm");
-console.log(arr);
+// arr.push("mắm tôm");
+// console.log(arr);
 
 
 // Update 1 phần tử trong mảng:
@@ -91,8 +91,8 @@ console.log(arr);
  * Để lấy được giá trị của 1 phần tử trong mảng ta sử dụng cú pháp:
  * arr[x] || Với x là vị trí hiện tại của phần tử đó
  */
-arr[0] = "thịt mèo"
-console.log("mảng sau khi update là:", arr);
+// arr[0] = "thịt mèo"
+// console.log("mảng sau khi update là:", arr);
 
 
 /// Delete 1 phần tử trong mảng: 
@@ -104,9 +104,59 @@ console.log("mảng sau khi update là:", arr);
  * y: là số phần tử các em muốn xóa kể từ vị trí đó (tính cả chính nó)
  */
 
-arr.splice(2, 1);
-console.log("mảng sau khi Delete là:", arr);
+// arr.splice(2, 1);
+// console.log("mảng sau khi Delete là:", arr);
 
 
+
+/**
+ * Bài 1: Cho người dùng Nhập vào n, với n là số phần tử của mảng có tên: menu
+ * a) Nhập vào từng đó n món ăn vào mảng menu
+ * b) Hiển thị Phương án C,R,U,D cho người dùng.
+ * để người dùng có thể trực tiếp thao tác với mảng thông qua cách nhập C,R,U,D
+ * c) Nếu người dùng ko nhập C,R,U,D => thoát khỏi chương trình.
+ */
+
+let n = prompt("Người dùng nhập vào số món ăn muốn lưu");
+n = Number(n);
+let menu = [];
+let i = 1
+do {
+  let x = prompt(`Mời người dùng nhập vào món ăn thứ ${i}`);
+  menu.push(x);
+  i = i + 1;
+}
+while (i <= n);
+
+
+
+console.log("Menu món ăn hiện tại là", menu);
+let input;
+
+do {
+  input = prompt("Mời người dùng nhập vào C,R,U,D");
+  if (input == 'c') { // tại đây kiểm tra input == c hay ko
+    menu.push(prompt("Mời người dùng nhập món ăn muốn thêm"));
+    console.log("Menu món ăn sau khi thêm là:", menu);
+  }
+  else if (input == 'r') {
+    console.log("Menu món ăn được in ra là:", menu);
+  }
+  else if (input == 'u') {
+    // tìm được vị tri của phần tử muốn update
+    let viTriUpdate = menu.indexOf(prompt("người dùng nhập món muốn update"))
+    menu[viTriUpdate] = prompt("Người dùng nhập món ăn mới thay thế món cũ:")
+    console.log("Menu món ăn sau khi update là:", menu);
+  }
+  else if (input == 'd') {
+    let viTriDelete = menu.indexOf(prompt("người dùng nhập món muốn Delete"));
+    menu.splice(viTriDelete, 1);
+    console.log("Menu món ăn sau khi delete là:", menu);
+  }
+  else {
+    alert("Không tồn lại lựa chọn => thoát vòng lặp");
+  }
+}
+while (input == 'c' || input == 'r' || input == 'u' || input == 'd');
 
 
