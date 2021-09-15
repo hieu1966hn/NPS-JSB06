@@ -104,7 +104,7 @@ console.log("mảng sau khi update là:", arr);
  * y: là số phần tử các em muốn xóa kể từ vị trí đó (tính cả chính nó)
  */
 
-arr.splice(2, 2);
+arr.splice(2, 1);
 console.log("mảng sau khi Delete là:", arr);
 
 
