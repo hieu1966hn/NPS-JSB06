@@ -68,8 +68,8 @@
 // while (i <= 10);
 
 /////// VD: Về vòng lặp for
-for (let i = 1; i <= 10; i = i + 1) {
+let i;
+for (i = 1; i <= 10; i = i + 1) {
   console.log(i);
-
 }
 

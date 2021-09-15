@@ -38,7 +38,7 @@ Lưu trữ trong web dùng gì??
 
   - "+": phép toán cộng
   - "-": phép toán trừ
-  - "\*": phép toán nhân
+  - "\": phép toán nhân
   - "/": phép toán chia
     ==> Các phép toán tử cộng trừ nhân chia chỉ dành cho số;
 
