@@ -17,5 +17,25 @@
      C2: Sử dụng từ khóa new Object();
      C3: sử dụng phương thức static
 
-  2. Thêm thuộc tính cho đối tượng (let obj = {}):
-     C1: obj.name = "Hiếu" => thêm thành công thuộc tính "name" và giá trị cho obj
+  Function (Hàm trong Javascript)
+
+  - Định nghĩa hàm: Chức năng, gọi chung là 1 chương trình con có thể gọi tới bên ngoài hoặc bên trong chính nó.
+
+  - Khai báo hàm: Sử dụng từ khóa "Function", theo sau nó là:
+
+  * Tên hàm: Tên hàm được đặt thêm theo camel case ()
+  * Danh sách các tham số truyền vào hàm, được đặt trong ngoặc đơn và cách nhau bởi dấu "," + Các câu lệnh JS để tạo ra 1 hàm, được đặt trong ngoặc nhọn {...}
+    VD: ...
+
+làm thế nào để chương trình con này chạy được.
+
+- Hàm sẽ chạy được khi: ta gọi tới hàm.
+
+- Hàm có và không trả về giá trị trong JS. Có 2 loại hàm như sau
+
+  - Đối với hàm có giá trị trả về, ta dùng từ khóa "return"
+  - Đối với hàm không có giá trị trả về, ta không dùng từ khóa "return"
+
+- Lưu ý
+  - Hàm được tạo ra thường để trả về kết quả gì đó thông qua từ khóa "return".
+  - Khi câu lệnh "return" được chạy. => ta thoát hàm ngay cả khi hàm chưa xong hết
