@@ -51,3 +51,6 @@ làm thế nào để chương trình con này chạy được.
 Phương thức thao tác với HTML by Javascript:
 
 - getElementById("id"): Tham chiếu tới 1 thẻ có id giống với id cần tìm
+- querySelector(".container"); với querySelecto ta có thể lấy được bất kỳ thẻ nào có id , class sao cho thỏa mãn điều kiện,
+  - với id => ta thêm # vào trước tên
+  - với class => ta thêm . vào trước tên

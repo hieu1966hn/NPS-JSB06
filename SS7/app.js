@@ -129,3 +129,26 @@ h1.innerHTML =
 h1.style.color = "blue"
 
 
+////// Lây ra thẻ div có class là : "container"
+
+// tạo ra biến div với giá trị là thẻ div lấy được bên html.
+const div = document.querySelector(".container");
+console.log(div);
+
+function changeColor() {
+  div.style.color = "pink";
+  h1.style.color = "purple"
+}
+
+function changeColor2() {
+  div.style.color = "black";
+  h1.style.color = "blue"
+}
+
+
+
+
+
+
+
+
