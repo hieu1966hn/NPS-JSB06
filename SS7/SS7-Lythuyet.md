@@ -37,5 +37,17 @@ làm thế nào để chương trình con này chạy được.
   - Đối với hàm không có giá trị trả về, ta không dùng từ khóa "return"
 
 - Lưu ý
+
   - Hàm được tạo ra thường để trả về kết quả gì đó thông qua từ khóa "return".
   - Khi câu lệnh "return" được chạy. => ta thoát hàm ngay cả khi hàm chưa xong hết
+
+- Khái niệm DOM và cách sử dụng Javascript để tương tác với trang web:
+  - DOM là gì? Document Object Model - Dịch ra: Mô hình các đối tượng tài liệu. Là một chuẩn được định nghĩa bởi W3C (tổ chức web toàn cầu - World Wide Web).
+  - DOM được dùng để truy xuất và thao tác trên các tài liệu có cấu trúc dạng HTML hay XML bằng các ngôn ngữ lập trình thông dụng như Javascript, PHP, ....
+
+=> NX sơ đồ: THấy được toàn bộ các thẻ HTML sẽ được quản lý bởi đối tượng Document. Thẻ cao nhất là thẻ <html>, tiếp theo là phân nhánh <body> và <head>. Bên trong <head> thì có những thẻ như <style>, <title>,.. và bên trong thẻ <body> thì là vô số các thẻ HTML khác.
+==> Như vậy trong JS, để thao tác với các thẻ HTML ta phải thông qua đối tượng document.
+
+Phương thức thao tác với HTML by Javascript:
+
+- getElementById("id"): Tham chiếu tới 1 thẻ có id giống với id cần tìm

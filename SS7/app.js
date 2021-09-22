@@ -89,17 +89,43 @@
 
 // VD về return với hàm
 // đặt tên với camel case
-function oneToTen() {
-  for (let i = 1; i <= 10; i++) { // i = i+1
-    console.log(i);
-    if (i === 5) {
-      return "Thoát vòng lặp tại vị trí thứ 5 nhé."
-    }
-  }
-}
+// function oneToTen() {
+//   for (let i = 1; i <= 10; i++) { // i = i+1
+//     console.log(i);
+//     if (i === 5) {
+//       return "Thoát vòng lặp tại vị trí thứ 5 nhé."
+//     }
+//   }
+// }
 
 
-// gọi tới hàm
-oneToTen();
+// // gọi tới hàm
+// oneToTen();
 
-console.log(oneToTen());
+// console.log(oneToTen());
+
+
+
+
+/////////////////// DOM trong web
+
+
+// tạo ra 1 biến h1 dùng để lưu trữ thẻ html nào có id là: welcome
+const h1 = document.getElementById("welcome");
+console.log(h1);
+
+
+// thay đổi nội dung text bên trong thẻ:
+h1.innerText = "Not anymore"
+
+// Thay đổi, thêm mới 1 thẻ bên trong thẻ được lấy ra với với thuộc tính innerHTML
+h1.innerHTML =
+  `
+<div>Đây là thẻ div mới được tạo by Javascript</div>
+<span>Đây là thẻ span mới được thêm</span>
+`
+
+/// Thay đổi style của thẻ h1 với thuộc tính .style thông qua JS
+h1.style.color = "blue"
+
+
