@@ -6,7 +6,7 @@ String: (chuỗi)
 
 - chuỗi.length: lấy ra được độ dài của chuỗi (số phần tử của chuỗi).
 
-Array:
+Array (mảng):
 Bài toán: 1 nhà hàng có 200 món ăn: muốn nhờ các dev lưu trữ lại toàn bộ món ăn này: "thịt chó", "cá nướng", "đậu lướt ván"..
 
 let monAn0 = "thịt chó"
@@ -21,6 +21,12 @@ Mà nhờ đó ta có 1 khái niệm để lưu trữ như sau: Array
 - Khai báo mảng:
   cú pháp:
   let <tênmảng> = [];
+
+- Các phương thức đi kèm với mảng
+
+  - arr.push(): Thêm 1 hoặc nhiều phần tử vào cuối mảng
+  - arr.indexOf: Trả về vị trí của phần tử mảng sao cho thỏa mãn điều kiện được tìm;
+  - arr.splice();
 
 - Các kiểu Dữ Liệu trong JS:
   - String: chuỗi: được viết bên trong 3 loại ngoặc:

@@ -110,17 +110,20 @@
 
 
 /**
- * Bài 1: Cho người dùng Nhập vào n, với n là số phần tử của mảng có tên: menu
+ * Bài 1: Cho người dùng Nhập vào n, với n là số phần tử của mảng có tên: "menu"
  * a) Nhập vào từng đó n món ăn vào mảng menu
  * b) Hiển thị Phương án C,R,U,D cho người dùng.
  * để người dùng có thể trực tiếp thao tác với mảng thông qua cách nhập C,R,U,D
  * c) Nếu người dùng ko nhập C,R,U,D => thoát khỏi chương trình.
  */
 
-let n = prompt("Người dùng nhập vào số món ăn muốn lưu");
+
+
+let n = prompt("Người dùng nhập vào số món ăn muốn lưu n:");
 n = Number(n);
 let menu = [];
 let i = 1
+// code nhập n món ăn vào mảng.
 do {
   let x = prompt(`Mời người dùng nhập vào món ăn thứ ${i}`);
   menu.push(x);
@@ -143,13 +146,17 @@ do {
     console.log("Menu món ăn được in ra là:", menu);
   }
   else if (input == 'u') {
-    // tìm được vị tri của phần tử muốn update
+    // tìm được vị tri của phần tử muốn update, ta sử dụng phương thức indexOf
     let viTriUpdate = menu.indexOf(prompt("người dùng nhập món muốn update"))
+
+    // Câu lệnh update 1 phần tử mảng tại vị trí đã biết.
     menu[viTriUpdate] = prompt("Người dùng nhập món ăn mới thay thế món cũ:")
     console.log("Menu món ăn sau khi update là:", menu);
   }
   else if (input == 'd') {
     let viTriDelete = menu.indexOf(prompt("người dùng nhập món muốn Delete"));
+
+    // Hàm Splice sử dụng để xóa 1 hoặc nhiều phần tử
     menu.splice(viTriDelete, 1);
     console.log("Menu món ăn sau khi delete là:", menu);
   }
