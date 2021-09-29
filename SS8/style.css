@@ -1,0 +1,7 @@
+/* Khi bắt đầu code web: ép kiểu trang web */
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
