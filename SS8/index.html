@@ -15,7 +15,11 @@
 
   <!-- code trang đăng ký -->
   <div class="container">
+
     <div class="form-register">
+
+      <h2>Register Form</h2>
+      <br>
 
       <form id="register-form">
 
@@ -45,12 +49,42 @@
         </div>
 
         <div class="text-box">
+          <span id="toLogin" onclick="toLogin()">Already have an account. Click here!</span>
           <button type="submit">Register</button>
         </div>
 
       </form>
 
     </div>
+
+
+
+    <div class="form-login">
+      <h2>Login Form</h2>
+      <br>
+      <form id="login-form">
+
+        <div class="text-box">
+          <h4>Email</h4>
+          <input type="text" name="email" placeholder="Type your email here">
+        </div>
+
+        <div class="text-box">
+          <h4>Password</h4>
+          <input type="password" name="password" placeholder="Type your password here">
+        </div>
+
+        <div class="text-box">
+          <span id="toRegister" onclick="toRegister()">Don't have an account. Click here to register!</span>
+          <button type="submit">Login</button>
+        </div>
+
+      </form>
+
+    </div>
+
+
+
   </div>
 
 

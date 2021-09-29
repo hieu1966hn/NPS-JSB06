@@ -4,6 +4,7 @@
  * Sử dụng addEventListener: để lắng nghe sự kiện xảy ra trên web.
  */
 
+// lấy ra được thẻ form
 const form = document.getElementById('register-form');
 console.log(form);
 
@@ -26,6 +27,8 @@ form.addEventListener("submit", function (event) {
 
   console.log(user);
 
+
+  // xóa toàn bộ chuỗi đã nhập về rỗng (về ban đầu)
   form.firstName.value = "";
   form.lastName.value = "";
   form.email.value = "";
@@ -35,3 +38,38 @@ form.addEventListener("submit", function (event) {
 
 
 // Hàm trim(): dùng để xóa dấu khoảng cách thừa ở hai bên trái và phải của string
+
+
+const loginForm = document.getElementById('login-form')
+console.log("hi");
+console.log(loginForm);
+
+loginForm.addEventListener('submit', (e) => {
+  e.preventDefault();
+  console.log("HI");
+  const userInfor = {
+    email: loginForm.email.value.trim(),
+    password: loginForm.password.value.trim()
+  }
+
+  console.log(userInfor);
+  loginForm.email.value = "";
+  loginForm.password.value = "";
+
+})
+
+
+
+function toRegister() {
+  // lấy ra thẻ span ở bên Login
+  const toRegister = document.getElementById("toRegister");
+  document.querySelector(".form-login").classList.add("displayNone");
+  document.querySelector(".form-register").classList.remove("displayNone");
+}
+
+function toLogin() {
+  // lấy ra thẻ span ở bên Register
+  const toLogin = document.getElementById("toRegister");
+  document.querySelector(".form-register").classList.add("displayNone");
+  document.querySelector(".form-login").classList.remove("displayNone");
+}

@@ -22,3 +22,17 @@
   padding: 5px 10px;
   /* trên/dưới  trái/phải*/
 }
+
+.text-box span {
+  cursor: pointer;
+}
+
+/* .form-register {
+  display: none;
+} */
+
+/* Tạo ra 1 class với thuộc tính display: none */
+
+.displayNone {
+  display: none;
+}
