@@ -15,3 +15,10 @@
   margin-top: 50px;
   font-size: x-large;
 }
+
+/* toàn bộ thẻ input nào là con của thẻ có class ="text-box"  */
+
+.text-box input {
+  padding: 5px 10px;
+  /* trên/dưới  trái/phải*/
+}

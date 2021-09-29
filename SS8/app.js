@@ -15,15 +15,23 @@ form.addEventListener("submit", function (event) {
 
   // tạo ra 1 đối tượng có tên là user:
   let user = {
-    firstName: form.firstName.value,
+    firstName: form.firstName.value.trim(),
     ///////////cha.con      . giá trị của con
-    lastName: form.lastName.value,
-    email: form.email.value,
-    password: form.password.value,
-    confirmPassword: form.confirmPassword.value
+    lastName: form.lastName.value.trim(),
+    email: form.email.value.trim(),
+    password: form.password.value.trim(),
+    confirmPassword: form.confirmPassword.value.trim()
 
   }
 
   console.log(user);
 
+  form.firstName.value = "";
+  form.lastName.value = "";
+  form.email.value = "";
+  form.password.value = "";
+  form.confirmPassword.value = "";
 });
+
+
+// Hàm trim(): dùng để xóa dấu khoảng cách thừa ở hai bên trái và phải của string
