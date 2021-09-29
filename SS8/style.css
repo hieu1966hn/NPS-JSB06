@@ -35,4 +35,5 @@
 
 .displayNone {
   display: none;
+  /* dùng để ẩn đi thẻ có chứa thuộc tính này display: none;  */
 }

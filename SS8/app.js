@@ -61,15 +61,16 @@ loginForm.addEventListener('submit', (e) => {
 
 
 function toRegister() {
-  // lấy ra thẻ span ở bên Login
-  const toRegister = document.getElementById("toRegister");
+
   document.querySelector(".form-login").classList.add("displayNone");
   document.querySelector(".form-register").classList.remove("displayNone");
 }
 
+
 function toLogin() {
-  // lấy ra thẻ span ở bên Register
-  const toLogin = document.getElementById("toRegister");
+  // lấy ra được thẻ có class = "form-register"
   document.querySelector(".form-register").classList.add("displayNone");
+  // thêm 1 class = "displayNone" vào trong thẻ này.
+
   document.querySelector(".form-login").classList.remove("displayNone");
 }
