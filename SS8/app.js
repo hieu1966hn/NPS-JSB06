@@ -4,7 +4,7 @@
  * Sử dụng addEventListener: để lắng nghe sự kiện xảy ra trên web.
  */
 
-// lấy ra được thẻ form
+// lấy ra được thẻ form đăng ký
 const form = document.getElementById('register-form');
 console.log(form);
 
@@ -26,6 +26,7 @@ form.addEventListener("submit", function (event) {
   }
 
   console.log(user);
+  // in ra toàn bộ thông tin người dùng tại màn hình console
 
 
   // xóa toàn bộ chuỗi đã nhập về rỗng (về ban đầu)
