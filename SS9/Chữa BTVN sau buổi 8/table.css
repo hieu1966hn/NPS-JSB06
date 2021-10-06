@@ -1,0 +1,14 @@
+/* style cho bảng của mình nhé */
+
+table, th, td {
+  border: 1px solid brown;
+  border-collapse: collapse;
+  width: 500px;
+  height: 20px;
+  text-align: center;
+}
+
+#first {
+  /* margin: 50px auto; */
+  /*  trên/dưới  trái/phải  */
+}
